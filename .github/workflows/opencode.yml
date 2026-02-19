@@ -1,33 +1,19 @@
-name: opencode
-
+name: OpenCode Issue Generator
 on:
-  issue_comment:
-    types: [created]
-  pull_request_review_comment:
+  schedule:
+    - cron: '0 0 * * 1'  # 每周一 00:00 UTC（北京时间早8点）自动生成 Issues
+  workflow_dispatch:      # 保留手动触发功能
+  issue_comment:          # 保留指令触发功能
     types: [created]
 
 jobs:
-  opencode:
-    if: |
-      contains(github.event.comment.body, ' /oc') ||
-      startsWith(github.event.comment.body, '/oc') ||
-      contains(github.event.comment.body, ' /opencode') ||
-      startsWith(github.event.comment.body, '/opencode')
+  generate-issues:
     runs-on: ubuntu-latest
-    permissions:
-      id-token: write
-      contents: read
-      pull-requests: read
-      issues: read
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v6
+      - uses: actions/checkout@v4
+      - name: Run OpenCode Issue Generator
+        uses: opencode-ai/opencode-action@v1
         with:
-          persist-credentials: false
-
-      - name: Run opencode
-        uses: anomalyco/opencode/github@latest
-        env:
-          MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
-        with:
-          model: minimax-cn-coding-plan/MiniMax-M2.5
+          prompt: .opencode/prompt.md
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          minimax-api-key: ${{ secrets.MINIMAX_API_KEY }}
