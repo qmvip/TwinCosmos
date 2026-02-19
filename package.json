@@ -1,6 +1,7 @@
 {
-  "name": "@wangyi/twincosmos",
+  "name": "twincosmos-demo",
   "version": "1.0.0",
+  "private": true, // 关键：标记为私有，禁止发布
   "description": "TwinCosmos - V5 Meta Memory + Fusion Physics Simulation System",
   "main": "src/index.js",
   "type": "module",
@@ -18,10 +19,10 @@
     "digital-twin",
     "decision-engine"
   ],
-  "author": "WangYi",
+  "author": "Wayne Evan",
   "license": "MIT",
   "dependencies": {
-    "@wangyi/v5-memory": "file:../v5-memory"
+    "@wayne.evan/v5-memory": "^1.1.0" // 依赖你已经发布的 NPM 包
   },
   "engines": {
     "node": ">=18.0.0"

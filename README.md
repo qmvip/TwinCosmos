@@ -1,3 +1,17 @@
+---
+
+## 🔌 Commercial & Research Services
+I provide custom development & consulting based on V5 Meta Memory & TwinCosmos:
+- Digital twin for fusion / energy / industry
+- Real-time simulation system
+- AI decision engine integration
+- Research paper engineering & code implementation
+- Enterprise license & private deployment
+
+Business: rhodri777@foxmail.com
+
+---
+
 # 🌌 TwinCosmos
 > 基于 V5 广义势垒的数字孪生聚变物理决策系统  
 > An Integrated System of Digital Twin, Fusion Physics, and Algorithmic Decision-Making
@@ -145,6 +159,32 @@ TwinCosmos/
 - 磁场控制决策
 - Hebb 学习机制
 
-## 许可证
+## 作者信息
+**Zheng Yiting**  
+ORCID: [0009-0008-7750-5687](https://orcid.org/0009-0008-7750-5687)
 
+---
+
+## 核心成果引用
+
+### 1. 理论总纲（英文预印本）
+**The Generalized Barrier Equation: A Theory of Everything for Phase Transitions**  
+DOI: [10.5281/ZENODO.18643635](https://doi.org/10.5281/ZENODO.18643635)
+
+### 2. 工程实现（中文预印本）
+**V5 广义势垒方程：临界系统相变的统一理论及其在数字孪生领域的应用**  
+DOI: [10.5281/ZENODO.18703307](https://doi.org/10.5281/ZENODO.18703307)
+
+### 3. 核心代码仓库
+- **V5 元记忆系统 (v5-memory)**  
+  DOI: [10.5281/ZENODO.18703102](https://doi.org/10.5281/ZENODO.18703102)  
+  GitHub: [https://github.com/qmvip/v5-memory](https://github.com/qmvip/v5-memory)
+
+- **TwinCosmos 数字孪生宇宙**  
+  DOI: [10.5281/ZENODO.18703053](https://doi.org/10.5281/ZENODO.18703053)  
+  GitHub: [https://github.com/qmvip/TwinCosmos](https://github.com/qmvip/TwinCosmos)
+
+## 许可证
+To cite this software, please use the following DOI:
+[10.5281/zenodo.18703053](https://doi.org/10.5281/zenodo.18703053)
 MIT
