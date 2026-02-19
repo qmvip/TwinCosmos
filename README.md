@@ -160,5 +160,6 @@ TwinCosmos/
 - Hebb 学习机制
 
 ## 许可证
-
+To cite this software, please use the following DOI:
+[10.5281/zenodo.18703053](https://doi.org/10.5281/zenodo.18703053)
 MIT
