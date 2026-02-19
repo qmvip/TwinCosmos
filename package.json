@@ -1,0 +1,29 @@
+{
+  "name": "@wangyi/twincosmos",
+  "version": "1.0.0",
+  "description": "TwinCosmos - V5 Meta Memory + Fusion Physics Simulation System",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node examples/01-basic-simulation.js",
+    "demo": "node examples/02-decision-engine.js",
+    "fusion": "node examples/03-fusion-reactor.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "keywords": [
+    "v5",
+    "meta-memory",
+    "fusion",
+    "simulation",
+    "digital-twin",
+    "decision-engine"
+  ],
+  "author": "WangYi",
+  "license": "MIT",
+  "dependencies": {
+    "@wangyi/v5-memory": "file:../v5-memory"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
