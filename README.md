@@ -1,3 +1,17 @@
+---
+
+## 🔌 Commercial & Research Services
+I provide custom development & consulting based on V5 Meta Memory & TwinCosmos:
+- Digital twin for fusion / energy / industry
+- Real-time simulation system
+- AI decision engine integration
+- Research paper engineering & code implementation
+- Enterprise license & private deployment
+
+Business: rhodri777@foxmail.com
+
+---
+
 # 🌌 TwinCosmos
 > 基于 V5 广义势垒的数字孪生聚变物理决策系统  
 > An Integrated System of Digital Twin, Fusion Physics, and Algorithmic Decision-Making
